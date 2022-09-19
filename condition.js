@@ -10,3 +10,23 @@ else if (numberOne < numberTwo || numberOne > numberTwo) {
 else {
     console.log('Today will be finished');
 }
+
+
+
+
+// task 6
+
+
+let subjectOne = 88;
+let subjectTwo = 91;
+let subjectThree = 77;
+
+if (subjectOne < subjectTwo && subjectOne < subjectThree) {
+    console.log(false);
+}
+else if (subjectTwo > subjectOne || subjectTwo < subjectThree){
+    console.log('Congratulations you Have been Passed',true);
+}
+else {
+    console.log('you can not select anyone');
+}
