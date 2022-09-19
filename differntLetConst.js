@@ -8,3 +8,5 @@ function justify() {
     console.log(secondValue);
 }
 justify();
+
+
