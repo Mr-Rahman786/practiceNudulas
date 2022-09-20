@@ -1,16 +1,20 @@
 
-var friends = ['sahed', 'ridika', 'tawhid', 'saidul'];
+var friends = ['sahed', 'ridika tasnim jessy', 'tawhid','mainul','aidi','saidul-hossain'];
+
 function bestFrieds(friends) {
-    let friend = friends[0];
-    let fnd = friends[0]
+    let bigFriend = friends[0];
     for (let i = 0; i < friends.length; i++){
         const element = friends[i];
-        if (element > friend) {
-            friend = element;
-            fnd = friends[i];
+        if (element.length > bigFriend.length) {
+            bigFriend = element;
         }
     }
-    return fnd;
+    return bigFriend;
 }
 const finalDecitions = bestFrieds(friends);
 console.log(finalDecitions);
+
+
+
+
+
